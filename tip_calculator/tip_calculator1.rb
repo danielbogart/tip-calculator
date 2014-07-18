@@ -9,6 +9,6 @@ total_cost = meal_with_tax + tip_value
 
 puts "The pre-tax cost of your meal was $#{sprintf("%.2f", meal)}."
 puts "At #{tax_percent}% tax, tax for this meal costs $#{sprintf("%.2f", tax_value)}."
-puts "For a #{tip_percent}% tip, you should leave $#{sprintf("%.2f", tax_value)}."
+puts "For a #{tip_percent}% tip, you should leave $#{sprintf("%.2f", tip_value)}."
 puts "The grand total for this meal is then $#{sprintf("%.2f", total_cost)}."
 
